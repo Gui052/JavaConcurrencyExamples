@@ -9,7 +9,7 @@ import java.util.concurrent.Executors;
 /**创建可缓存线程池 ，如果长度超过所需，可以自动回收空闲线程，如果不够则创建新的。
  * @author lan
  * @version 1.0.0
- * @since 2019/3/31  16:20
+ * @since 2019/3/31
  */
 @Slf4j
 public class ThreadPoolExample1 {

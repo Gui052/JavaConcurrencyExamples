@@ -1,6 +1,5 @@
 package club.lan.concurrency.example.singleton;
 
-import club.lan.concurrency.annoations.NotThreadSafe;
 import club.lan.concurrency.annoations.ThreadSafe;
 
 /** 饿汉模式--静态域写法

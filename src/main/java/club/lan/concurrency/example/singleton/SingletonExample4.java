@@ -2,7 +2,6 @@ package club.lan.concurrency.example.singleton;
 
 import club.lan.concurrency.annoations.NotRecommend;
 import club.lan.concurrency.annoations.NotThreadSafe;
-import club.lan.concurrency.annoations.ThreadSafe;
 
 /** 懒汉模式--双重同步锁单例模式（不一定线程安全，因为有指令重排）
  * @author lan

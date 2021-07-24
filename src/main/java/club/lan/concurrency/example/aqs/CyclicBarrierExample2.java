@@ -35,7 +35,7 @@ public class CyclicBarrierExample2 {
         Thread.sleep(1000);
         log.info("{} is ready", threadNum);
         try {
-            barrier.await(2000, TimeUnit.MILLISECONDS); //加计数器
+            barrier.await(5000, TimeUnit.MILLISECONDS); //加计数器
         } catch (Exception e) {
             log.warn("{}",e);
         }
